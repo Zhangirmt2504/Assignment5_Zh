@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+
+    <section>
+        <h1 id="message">Hello everyone! <br> My name is Zhangir. <br> Increase or Decrease number!</h1>
+        <p id="counter">0</p>
+        <button id="increase">Increase</button>
+        <button id="decrease">Decrease</button>
+        <button id="reset">Reset</button>
+    </section>
+
+    <section>
+        <label for="textInput">Enter your text:</label>
+        <input type="text" id="textInput">
+
+        <p id="preview">Your text will appear here</p>
+        <p>Characters: <span id="charCount">0</span></p>
+        <button id="clear">Clear</button>
+    </section>
+
+    <section>
+        <label for="carSelect">Choose a Mercedes:</label>
+        <select id="carSelect">
+            <option value="mercedes-c.jpg">C-Class</option>
+            <option value="mercedes-e.jpg">E-Class</option>
+            <option value="mercedes-s.jpeg">S-Class</option>
+        </select>
+
+        <div>
+            <img id="carImage" src="images/mercedes-c.jpg"
+                 alt="Mercedes-Benz C-Class car">
+            <p id="caption">Mercedes-Benz C-Class</p>
+        </div>
+    </section>
+
+    <section>
+        <label for="keyboardInput">Type something:</label>
+        <input type="text" id="keyboardInput">
+
+        <p id="keyStatus">Press any key</p>
+        <p id="keyResult"></p>
+    </section>
+
+    <section>
+        <div id="eventCard" tabindex="0">
+            Hover over me or focus with Tab
+        </div>
+        <p id="instruction">
+            Move your mouse over the card or use Tab.
+        </p>
+    </section>
+
+</body>
+</html>
